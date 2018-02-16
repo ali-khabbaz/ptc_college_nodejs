@@ -1,8 +1,8 @@
 // I();
 // II();
 // III();
-// IV();
-V();
+IV();
+// V();
 
 
 
@@ -50,11 +50,14 @@ function IV() {
     };
 
     const displayPerson = ({
-        name = 'no name assigned',
-        age = 'no age',
-        interests = 'no interest',
-        job = 'has no job'
-    }) => console.log(name, 'in age', age, job, interests);
+        name = '__',
+        age = '00',
+        interests = '__',
+        job = '__'
+    }) => console.log(`my name is ${name}, 
+    i am ${age} years old,
+    i am interested in ${interests},
+    i am a ${job} `);
 
     displayPerson(person); // ali in age 30 has no job not interested in anything :(​​​​​
 }
