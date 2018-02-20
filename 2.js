@@ -23,13 +23,7 @@ i am a student_:)
 
 const server = http.createServer((req, res) => {
     const urlParts = url.parse(req.url, true),
-        urlParams = urlParts.query,
-        {
-            name,
-            age,
-            interests,
-            job
-        } = urlParams;
+        urlParams = urlParts.query;
     res.writeHead(200, {
         'Content-Type': 'text/html'
     });
