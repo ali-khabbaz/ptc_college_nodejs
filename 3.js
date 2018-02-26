@@ -4,8 +4,8 @@
         request = require('request'),
         telegraf = require('telegraf'),
         Markup = require('telegraf/markup'),
-        bot = new telegraf('433529977:AAHJZ2YIZ5rkndHn7uZ5_Xx1uRiK5PZblvM'),
-        weatherAPIKey = 'GTyvdN7CUpoAg8b2OnKlmxLg5HGHGHuB',
+        bot = new telegraf('_____'),
+        weatherAPIKey = '_____',
         commands = ['/weather', '/curreny'];
 
     let lastCommand;
