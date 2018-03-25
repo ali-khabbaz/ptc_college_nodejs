@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "request": "^2.83.0",
-    "telegraf": "^3.18.0"
+    "telegraf": "^3.18.0",
+    "telegram-bot-api.js": "^0.10.5"
   }
 }
