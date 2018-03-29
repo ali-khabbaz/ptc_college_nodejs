@@ -1,6 +1,6 @@
 (() => {
     'use strict';
-    const token = '____',
+    const token = '433529977:AAHJZ2YIZ5rkndHn7uZ5_Xx1uRiK5PZblvM',
         request = require('request'),
         TelegramBot = require('telegram-bot-api.js').default,
         weatherAPIKey = '____',
